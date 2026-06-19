@@ -125,6 +125,12 @@ Con mucha alegría queremos compartir este día tan especial con ustedes.
 
 <img src="IMG-20260615-WA0055.jpg">
 
+<br><br>
+
+<audio id="musica" loop controls>
+<source src="cumpleaños.m4a" type="audio/mp4">
+</audio>
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
@@ -136,6 +142,8 @@ function abrirInvitacion(){
 document.getElementById("regalo").style.display="none";
 
 document.getElementById("contenido").style.display="block";
+
+document.getElementById("musica").play();
 
 confetti({
 particleCount:300,
